@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.unir.leonardotalero.splash1.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/pantalla_principal"
+        android:orderInCategory="100"
+        android:title="@string/pantalla_principal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/pantalla_login"
+        android:orderInCategory="100"
+        android:title="@string/segunda_pantalla_login"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pantalla_Mixta"
+        android:orderInCategory="100"
+        android:title="@string/mixta_pantalla">
+            <!-- "file" submenu -->
+            <menu>
+
+                <item android:id="@+id/pantalla4"
+                    android:title="@string/pantalla4" />
+            </menu>
+
+
+    </item>
+
+
+</menu>
